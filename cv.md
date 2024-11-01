@@ -6,7 +6,7 @@
 - __Email:__ cyrylkuzmin@gmail.com
 - __GitHub:__ [cyrylkuzmin](https://github.com/cyrylkuzmin)
 
-## _Code example__
+## __Code example__
 ```
 function calculate(input) {
   if (input === "1+1") {
