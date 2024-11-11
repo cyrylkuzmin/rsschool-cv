@@ -1,0 +1,61 @@
+/* Reset margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+
+/* Container for the columns */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* Column styles */
+
+.column {
+    padding: 20px;
+}
+
+
+/* Left column */
+
+.left {
+    background-color: #f0f0f0;
+    flex: 1;
+}
+
+
+/* Right column */
+
+.right {
+    flex: 2;
+}
+
+
+/* Responsive for small screens */
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
